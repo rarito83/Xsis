@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct XsisApp: App {
+    
+//    let injection = Injection()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
         }
     }
 }
